@@ -1,7 +1,118 @@
 h1{
-    font-size: 50pxp;
+    font-size: 50px;
 }
 body{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
+
+.profile{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.profile img{
+    width: 100%;
+}
+
+.profile p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+
+.name-highlight{
+    color: orange;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.banner-top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;   
+}
+.link-button{
+    text-decoration: none;
+    background-color: #2c061f;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.link-button:hover{
+    background-color: black;
+    color: white;
+    
+    
+}
+
+#dream-part{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+#clear-div{
+    clear: both;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.exprience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: left;
+   
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#back-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(44, 14, 212),rgb(15, 167, 194));
+    border-image-slice: 1;
+}
+footer {
+    background: #060930;
+    padding: 3%;
+    color: white;   
+}
+footer p {
+    font-size: 0.8rem;
+    line-height: 32px;
+    text-align: center;
+}
+
+.icon-style {
+    color: white;
+    background-color: rgb(231, 132, 132);
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transition: .4s;
+    
+    text-align: center;
+}
+.icon-style:hover{
+    background-color: grey;
+    transform: scale(1.2);
+}
+
